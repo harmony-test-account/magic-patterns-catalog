@@ -92,7 +92,7 @@ function FooterNavItems() {
     <>
       {/* Company */}
       <Flex align="start" direction={'column'} gap={'1'}>
-        <FooterColumnHeader text="Company" />
+        <FooterColumnHeader text="Incorp" />
         <FooterLink
           linkOverride="https://www.magicpatterns.com/"
           word="Magic Patterns AI"
@@ -110,7 +110,7 @@ function FooterNavItems() {
       </Flex>
       {/* Legal */}
       <Flex align="start" direction={'column'} gap={'1'}>
-        <FooterColumnHeader text="Legal" />
+        <FooterColumnHeader text="Legal Stuff" />
 
         <FooterLink docsTitle="/documentation/legal/terms" word="Terms" />
         <FooterLink
@@ -214,7 +214,7 @@ export function Footer() {
                   </Text>
                 </Link>
               </Flex>
-              <Flex mt="4" gap="6">
+              <Flex /** gap-x-0 justify-between */ mt="4" gap="6">
                 <Link href="https://twitter.com/magicpatterns" target="_blank">
                   <IconButton
                     variant="ghost"

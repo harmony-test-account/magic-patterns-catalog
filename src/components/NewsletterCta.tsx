@@ -85,11 +85,8 @@ export function NewsletterCta() {
                 style={{ width: '100px', marginRight: '20px' }}
               />
               <Box>
-                <Heading size="6">Join the Magic Patterns Newsletter</Heading>
-                <Text size="3" mt="1">
-                  Get updated on the latest UI/UX trends once a month. No spam,
-                  we promise.
-                </Text>
+                <Heading size="6">Join the Magic Patterns Email List</Heading>
+                <Text size="3" mt="1">Get updated on the latest UI/UX trends once a week. No spam, we promise.</Text>
 
                 <form onSubmit={() => handleSubmitEmail()}>
                   <Flex align="center" mt="3">
@@ -109,7 +106,7 @@ export function NewsletterCta() {
                       />
                     </TextField.Root>
                     <Button
-                      type="submit"
+/** bg-[#4672F626] */                       type="submit"
                       variant="soft"
                       onClick={() => handleSubmitEmail()}
                       disabled={isLoading}
@@ -117,7 +114,7 @@ export function NewsletterCta() {
                       {isLoading ? (
                         <Spinner style={{ width: '16px', height: '16px' }} />
                       ) : (
-                        <span>Sign Up</span>
+                        <span>Login</span>
                       )}
                     </Button>
                   </Flex>

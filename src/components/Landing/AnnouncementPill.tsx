@@ -21,7 +21,7 @@ export function AnnouncementPill({
       style={{ textDecoration: 'none', cursor: 'default' }}
     >
       <Box
-        style={{
+/** py-2 */         style={{
           padding: '6px 18px 6px 14px',
           border: '1px solid white',
           width: 'fit-content',
