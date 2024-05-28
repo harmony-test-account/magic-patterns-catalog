@@ -91,7 +91,7 @@ export function DesignSystemSection() {
           lg: '8',
         }}
       >
-        <Heading size="7">Browse by Design System</Heading>
+        <Heading size="7">Browse by UI System</Heading>
         <Text size="4" color="gray" mt="4">
           Find sets of visually consistent components.
         </Text>

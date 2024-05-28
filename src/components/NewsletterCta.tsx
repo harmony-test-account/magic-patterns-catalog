@@ -81,7 +81,7 @@ export function NewsletterCta() {
               align="start"
             >
               <img
-                src="/email_icon.png"
+className="mr-2.5"                 src="/email_icon.png"
                 style={{ width: '100px', marginRight: '20px' }}
               />
               <Box>
@@ -109,7 +109,7 @@ export function NewsletterCta() {
                       />
                     </TextField.Root>
                     <Button
-                      type="submit"
+className="ml-5"                       type="submit"
                       variant="soft"
                       onClick={() => handleSubmitEmail()}
                       disabled={isLoading}

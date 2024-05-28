@@ -214,7 +214,7 @@ export function Footer() {
                   </Text>
                 </Link>
               </Flex>
-              <Flex mt="4" gap="6">
+              <Flex className="gap-x-4" mt="4" gap="6">
                 <Link href="https://twitter.com/magicpatterns" target="_blank">
                   <IconButton
                     variant="ghost"
