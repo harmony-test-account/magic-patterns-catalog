@@ -121,12 +121,10 @@ export function HeroSection() {
           <Flex justify="center" align="center" direction="column">
             <Box style={{ maxWidth: '800px' }}>
               <AnnouncementPill
-                text="🎉 magic patterns: Your frontend AI"
+                text="🎉 magic patterns: Your frontend he: Your frontend AI"
                 href="/"
               />
-              <Heading size="9" mt="6" style={{ color: 'white' }}>
-                Find the perfect component.
-              </Heading>
+              <Heading size="9" mt="6" style={{ color: 'white' }}>Find the component.</Heading>
 
               <form
                 onSubmit={(e) => {

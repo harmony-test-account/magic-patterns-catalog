@@ -32,7 +32,7 @@ function DesignSystemCard({
       }}
       variant="surface"
     >
-      <Flex gap="4" align="center" direction="column">
+      <Flex /** gap-y-3 */ gap="4" align="center" direction="column">
         <Flex justify="center" align="center" p="2">
           <Avatar size={'6'} src={imgSrc} radius="full" fallback={name[0]} />
         </Flex>
@@ -53,7 +53,7 @@ export function DesignSystemSection() {
   return (
     <DefaultContainer>
       <Flex
-        gap="9"
+/** flex-col justify-center gap-x-0 */         gap="9"
         justify={'center'}
         align={'center'}
         direction={'row'}
@@ -91,11 +91,9 @@ export function DesignSystemSection() {
           lg: '8',
         }}
       >
-        <Heading size="7">Browse by Design System</Heading>
-        <Text size="4" color="gray" mt="4">
-          Find sets of visually consistent components.
-        </Text>
-        <Flex mt="4" gap="4" wrap="wrap">
+        <Heading size="7">Browse by Design Component</Heading>
+        <Text size="4" color="gray" mt="4">Find sets of visually consistent systems.</Text>
+        <Flex /** flex-nowrap */ mt="4" gap="4" wrap="wrap">
           <DesignSystemCard
             name="Chakra"
             imgSrc={LIBRARY_LOGOS['chakra']}
